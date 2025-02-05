@@ -8,5 +8,10 @@ public class loopsAndArrays {
         for (int i = 0; i < 10; i++) {
             System.out.println(numbers[i]);
         }
+//        enhanced loop
+        System.out.println();
+        for (var number : numbers) {
+            System.out.println(number);
+        }
     }
 }
