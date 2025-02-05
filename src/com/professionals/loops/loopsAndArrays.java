@@ -1,4 +1,4 @@
-package com.professionals;
+package com.professionals.loops;
 
 public class loopsAndArrays {
     public static void main(String[] args) {
