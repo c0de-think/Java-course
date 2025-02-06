@@ -5,17 +5,30 @@ import java.util.Objects;
 public class Getter {
     private String name;
 
-    public Getter(String name)
-    {
+//    public Getter(String name)
+//    {
+//        this.name = name;
+//    }
+//
+//    public void SetName(String name) {
+//        this.name = name;
+//    }
+//
+//    public String GetName() {
+//        return this.name;
+//    }
+
+
+    public Getter(String name) {
         this.name = name;
     }
 
-    public void SetName(String name) {
-        this.name = name;
+    public String getName() {
+        return name;
     }
 
-    public String GetName() {
-        return this.name;
+    public void setName(String name) {
+        this.name = name;
     }
 
     @Override
