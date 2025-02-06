@@ -4,7 +4,7 @@ import java.util.Objects;
 
 public class Getter {
     private String name;
-
+//TIP you should never write these code by yourself!
 //    public Getter(String name)
 //    {
 //        this.name = name;
