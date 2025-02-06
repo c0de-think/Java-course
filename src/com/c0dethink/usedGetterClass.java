@@ -6,7 +6,9 @@ public class usedGetterClass {
         g1.SetName("first");
         System.out.println(g1.GetName());
 
-        Getter g2 = new Getter("hello");
+        Getter g2 = new Getter("second");
         System.out.println(g2.GetName());
+
+        System.out.println(g1.equals(g2));
     }
 }
